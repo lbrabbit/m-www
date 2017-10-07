@@ -1,5 +1,6 @@
 # m-www
 Homepage https://github.com/lbrabbit/m-www
+
 Forked from https://github.com/mdn/webextensions-examples/tree/master/open-my-page-button
 
 # What it does: WebExtension for m <-> www on URL
@@ -20,5 +21,5 @@ using the about:debugging page to load this extension.
 
 # Further Development
 
-* Change Icon
+* Change icons
 * Use regex more effectively
