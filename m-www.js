@@ -1,5 +1,6 @@
 /*
 1. Get activeTab URL
+2. Toggle URL if match
 */
 browser.browserAction.onClicked.addListener((tab) => {
   // requires the "tabs" or "activeTab" permission
