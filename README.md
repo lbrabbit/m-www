@@ -5,7 +5,7 @@ Forked from https://github.com/mdn/webextensions-examples/tree/master/open-my-pa
 
 # What it does: WebExtension for m <-> www on URL
 
-How to browse facebook faster? use https://m.facebook.com ! But this mobile version sometimes lack important functions. This extension make it easy to switch between m<->www .
+How to browse facebook faster? use https://m.facebook.com ! But this mobile version sometimes lacks important functions. This extension makes it easy to switch between m<->www .
 
 This extension includes:
 
