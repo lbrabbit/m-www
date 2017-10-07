@@ -9,11 +9,16 @@
     "48": "icons/page-48.png"
   },
 
+  "permissions": [
+    "tabs"
+  ],
+
   "background": {
     "scripts": ["m-www.js"]
   },
 
   "browser_action": {
+    "browser_style": true,
     "default_icon": "icons/page-32.png"
   }
 
