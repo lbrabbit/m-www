@@ -1,10 +1,16 @@
 {
+  "applications": {
+    "gecko": {
+      "id": "m-www@black.rabbit",
+      "strict_min_version": "52.0"
+    }
+  },
 
   "description": "m <-> www",
   "manifest_version": 2,
   "name": "m <-> www",
   "version": "0.1",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/open-my-page-button",
+  "homepage_url": "https://github.com/lbrabbit/m-www",
   "icons": {
     "48": "icons/page-48.png"
   },
