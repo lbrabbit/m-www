@@ -12,7 +12,9 @@
   "version": "0.1",
   "homepage_url": "https://github.com/lbrabbit/m-www",
   "icons": {
-    "48": "icons/m-www.svg"
+    "24": "icons/m-www.svg",
+    "48": "icons/m-www.svg",
+    "96": "icons/m-www.svg"
   },
 
   "permissions": [
@@ -20,7 +22,7 @@
   ],
 
   "background": {
-    "scripts": ["m-www.js"]
+    "scripts": ["regex.js","m-www.js"]
   },
 
   "browser_action": {

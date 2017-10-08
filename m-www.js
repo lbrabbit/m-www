@@ -4,9 +4,8 @@
 */
 browser.browserAction.onClicked.addListener((tab) => {
   // requires the "tabs" or "activeTab" permission
-  var m_re = /^https\:\/\/m\./
-  var www_re = /^https\:\/\/www\./   
-  console.log(tab.url, tab.id, m_re.test(tab.url), www_re.test(tab.url));
+
+  //console.log(tab.url, tab.id, m_re.test(tab.url), www_re.test(tab.url));
   //console.log(Object.keys(tab));
   
   if (m_re.test(tab.url))
@@ -15,3 +14,17 @@ browser.browserAction.onClicked.addListener((tab) => {
     browser.tabs.update({url: tab.url.replace(www_re,"https://m.")});
   
 });
+
+/* New Regex Code
+matchArray=[
+  [/^(http|https)\:\/\/m\./,"www"],
+  [/^(http|https)\:\/\/www\./,"m"]  
+];
+
+var i = matchArray.length;
+var noMatch = false;
+
+while(i--) {
+  var matchEle = matchArray[i];
+  console.log(i,matchEle[0],matchEle[1]);   
+}*/
