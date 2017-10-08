@@ -1,1 +1,2 @@
+rm m-www@black.rabbit.xpi
 zip -r -9 m-www@black.rabbit.xpi * -x make_xpi

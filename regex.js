@@ -1,7 +1,8 @@
 //All the Regex Part here
-var m_re = /^https\:\/\/m\./ ;
-var www_re = /^https\:\/\/www\./ ;
-matchArray=[
-  [/^(http|https)\:\/\/m\./,"www"],
-  [/^(http|https)\:\/\/www\./,"m"]  
+//Regex pair lower down this file will be processed earlier. i.e. Bigger array index.
+var matchArray=[
+  [/^(http|https)\:\/\/m\./,"$1://www."],
+  [/^(http|https)\:\/\/www\./,"$1://m."],  
+  [/^(http|https)\:\/\/m\.mingpao\./,"$1://news.mingpao."],
+  [/^(http|https)\:\/\/news\.mingpao\./,"$1://m.mingpao."]
 ];
