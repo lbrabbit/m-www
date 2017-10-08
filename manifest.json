@@ -12,7 +12,7 @@
   "version": "0.1",
   "homepage_url": "https://github.com/lbrabbit/m-www",
   "icons": {
-    "48": "icons/page-48.png"
+    "48": "icons/m-www.svg"
   },
 
   "permissions": [
@@ -25,7 +25,7 @@
 
   "browser_action": {
     "browser_style": true,
-    "default_icon": "icons/page-32.png"
+    "default_icon": "icons/m-www.svg"
   }
 
 }
