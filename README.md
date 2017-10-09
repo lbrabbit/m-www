@@ -14,7 +14,7 @@ This extension includes:
 
 # Installation
 
-This extension is registered at https://addons.mozilla.org/en-US/firefox/addon/m-www/ . You can download from there.
+This extension is registered at https://addons.mozilla.org/en-US/firefox/addon/m-www/ . You can install from there.
 
 To install a developer version, download all the files and follow the instruction at https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension using the about:debugging page to load this extension.
 
