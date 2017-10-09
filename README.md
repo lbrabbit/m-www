@@ -9,17 +9,14 @@ How to browse facebook faster? use https://m.facebook.com ! But this mobile vers
 
 This extension includes:
 
-* a background script, "m-www.js"
+* some background script, "m-www.js" and "regex.js"
 * a browser action
 
 # Installation
 
-Currently, this extension is not registered at https://addons.mozilla.org .
+This extension is registered at https://addons.mozilla.org/en-US/firefox/addon/m-www/ . You can download from there.
 
-Method 1:Unsigned add-ons can be installed in Developer Edition, Nightly, and ESR versions of Firefox, after toggling the xpinstall.signatures.required preference in about:config. Then you can drag the m-www@black.rabbit.xpi and allow it to be installed. https://developer.mozilla.org/en-US/Add-ons/Distribution
-
-Method 2:Download all the files and follow the instruction at https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension
-using the about:debugging page to load this extension.
+To install a developer version, download all the files and follow the instruction at https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension using the about:debugging page to load this extension.
 
 # Further Development
 
