@@ -1,2 +1,4 @@
 
 The m-www is made from Liberation Sans font created by Red Hat under the SIL Open Font License, Version 1.1, https://pagure.io/liberation-fonts .
+
+m-www_ink.svg is the original design file created in Inkscape. The font used is converted to path and saved as m-www.svg so that it is independent from the font and will not be depedent on another font.
